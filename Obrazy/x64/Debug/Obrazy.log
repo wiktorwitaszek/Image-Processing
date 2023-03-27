@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\MrKow\source\repos\Obrazy\Obrazy\main.c(45,11): warning C4013: 'isdigit' undefined; assuming extern returning int
+C:\Users\MrKow\source\repos\Obrazy\Obrazy\main.c(224,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Obrazy.vcxproj -> C:\Users\MrKow\source\repos\Obrazy\x64\Debug\Obrazy.exe

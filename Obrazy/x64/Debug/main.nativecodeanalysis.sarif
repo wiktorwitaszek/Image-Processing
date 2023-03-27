@@ -1,0 +1,4127 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 2,
+                  "endLine": 30,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "odczyt",
+                  "decoratedName": "odczyt",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 2,
+                  "endLine": 40,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "odczyt",
+                  "decoratedName": "odczyt",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 3,
+                  "endLine": 43,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "odczyt",
+                  "decoratedName": "odczyt",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 4,
+                  "endLine": 51,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "odczyt",
+                  "decoratedName": "odczyt",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 3,
+                  "endLine": 65,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "odczyt",
+                  "decoratedName": "odczyt",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 5,
+                  "endLine": 78,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "odczyt",
+                  "decoratedName": "odczyt",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'ob1->tab'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 3,
+                  "endLine": 61,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "odczyt",
+                  "decoratedName": "odczyt",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'plik==(((void *)0))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'isdigit(*litera)==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'isdigit(*litera)==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<ob1->wys')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<ob1->wys')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'ob1->tab', (outside its writable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'ob1->tab[i]'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 4,
+                  "endLine": 82,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "odczyt",
+                  "decoratedName": "odczyt",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'**temp.tab' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Exit this loop, ('i<ob1->wys' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'isdigit(*litera)==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<ob1->wys')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'j<ob1->sze')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'isdigit(*litera)==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'**temp.tab' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'ob1->tab[i]'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 4,
+                  "endLine": 82,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "odczyt",
+                  "decoratedName": "odczyt",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<ob1->wys')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'j<ob1->sze')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'isdigit(*litera)==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "'j' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'j<ob1->sze')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'isdigit(*litera)==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'ob1->tab[i]', (outside its writable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 2,
+                  "endLine": 94,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "zapis",
+                  "decoratedName": "zapis",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'tab_string' might not be zero-terminated."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 2,
+                  "endLine": 96,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "zapis",
+                  "decoratedName": "zapis",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'tab_string'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'tab_string' is an Output from 'scanf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1276)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 95,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'tab_string' is an Input to 'fopen' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:213)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'tab_string' is required to be zero-terminated by a SAL annotation on 'fopen'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory '*temp.tab'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 8,
+                  "endLine": 130,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "zwolnienie",
+                  "decoratedName": "zwolnienie",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'*temp.tab' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'*temp.tab' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'new_tab'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 182,
+                  "startColumn": 3,
+                  "endLine": 182,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rotate_left",
+                  "decoratedName": "rotate_left",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 172,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 173,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 174,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'new_tab' is a 0 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 175,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'new_tab==(((void *)0))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<image->sze')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 182,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'new_tab[i]==(((void *)0))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<image->sze')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 182,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'new_tab', (outside its writable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'new_tab'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 7,
+                  "endLine": 183,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rotate_left",
+                  "decoratedName": "rotate_left",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 172,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 173,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 174,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'new_tab' is a 0 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 175,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'new_tab==(((void *)0))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<image->sze')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 182,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'new_tab[i]==(((void *)0))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 181,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<image->sze')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 182,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'new_tab[i]==(((void *)0))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'new_tab', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'tab'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 257,
+                  "startColumn": 3,
+                  "endLine": 257,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "histogram",
+                  "decoratedName": "histogram",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 250,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 251,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 252,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 253,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 254,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "'tab' is a 0 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<=ob->glebia')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 257,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<=ob->glebia')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 257,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'tab', (outside its writable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'tab'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 288,
+                  "startColumn": 3,
+                  "endLine": 288,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "histogram",
+                  "decoratedName": "histogram",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 250,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 251,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 252,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 253,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 254,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "'tab' is a 0 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 257,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 259,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 259,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<ob->wys' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 276,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 277,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 278,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'plik==(((void *)0))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 283,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 285,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 285,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<=ob->glebia')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 288,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 285,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 285,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<=ob->glebia')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 288,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an In/Out argument to 'fprintf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:830)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 288,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'tab', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 254,
+                  "startColumn": 16,
+                  "endLine": 254,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "histogram",
+                  "decoratedName": "histogram",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6308",
+          "message": {
+            "text": "'realloc' might return null pointer: assigning null pointer to 'tab_ob', which is passed as an argument to 'realloc', will cause the original memory block to be leaked."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 14,
+                  "endLine": 376,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6308",
+          "message": {
+            "text": "'realloc' might return null pointer: assigning null pointer to 'tab_ob', which is passed as an argument to 'realloc', will cause the original memory block to be leaked."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 396,
+                  "startColumn": 13,
+                  "endLine": 396,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 357,
+                  "startColumn": 4,
+                  "endLine": 357,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 388,
+                  "startColumn": 4,
+                  "endLine": 388,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 410,
+                  "startColumn": 4,
+                  "endLine": 410,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'litera'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 358,
+                  "startColumn": 8,
+                  "endLine": 358,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 342,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 343,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'litera' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 344,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 345,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 346,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 348,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 349,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 353,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "'litera' is an Output from 'scanf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1276)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 358,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'isdigit(*litera)==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 358,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'litera' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'litera' could be '0'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                },
+                "region": {
+                  "startLine": 363,
+                  "startColumn": 3,
+                  "endLine": 363,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 342,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 343,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'litera' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 344,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 345,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 346,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 348,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 349,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 353,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "'litera' is an Output from 'scanf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1276)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 358,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'isdigit(*litera)==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 362,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'isdigit(*litera)==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'litera' is an Input to 'atoi' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdlib.h:451)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'litera' should not be NULL, because this is not consistent with the SAL annotation on 'atoi'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/MrKow/source/repos/Obrazy/Obrazy/main.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "140e66da96836e7f4b8a64114a576cf217289c75281511ceb98fb861ff1f7ba8"
+          }
+        }
+      ]
+    }
+  ]
+}
